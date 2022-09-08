@@ -1,0 +1,527 @@
+*
+{
+    box-sizing: border-box;
+}
+.nav
+{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 100;
+}
+.main
+{
+    background-image: url(Images/hero-bg.jpg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  
+}
+.main .overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+.coverText
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 20%;
+
+}
+
+.caption h1
+{
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 600;
+    position: relative;
+    
+}
+.caption .h1::after
+{
+    content: " |";
+    animation:home_captain_animation 7s infinite alternate ease-in-out ;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top : 100%;
+    transform: translate(-50%);
+    
+}
+@keyframes home_captain_animation
+{
+    0%{ content: " |";}
+   1.30%{ content: " D |";}
+   2.6%{ content: " De |";}
+   3.9%{ content: " Des |";}
+   5.2%{ content: " Desi |";}
+   6.5%{ content: " Desig |";}
+   7.8%{ content: " Design |";}
+   9.1%{ content: " Designe |";}
+   10.4%{ content: " Designer|"; }
+   11.7%{ content: "Designe |";}
+   13%{ content: "Design |";}
+   14.3%{ content: "Desig |";}
+   15.6%{ content: "Desi |";}
+   16.9%{ content: "Des |";}
+   18.2%{ content: "Dev |";}
+   19.5%{ content: "Deve |";}
+   20.8%{ content: "Devel |";}
+   22.1%{ content: "Develo |";}
+   23.4%{ content: "Develop |";}
+   24.7%{ content: "Develope |";}
+   26%{ content: "Developer |";}
+   27.3%{ content: "Develope |";}
+   28.6%{ content: "Develop |";}
+   29.9%{ content: "Develo |";}
+   31.2%{ content: "Devel |";}
+   32.5%{ content: "Deve |";}
+   33.8%{ content: "Dev |";}
+   35.1%{ content: "De |";}
+   36.4%{ content: "D |";}
+   37.7%{ content: " |";}
+   39%{ content: "F |";}
+   40.3%{ content: "Fr |";}
+   41.6%{ content: "Fre |";}
+   42.9%{ content: "Free |";}
+   43.2%{ content: "Freel |";}
+   44.5%{ content: "Freela |";}
+   45.8%{ content: "Freelan |";}
+   46.1%{ content: "Freelanc |";}
+   47.4%{ content: "Freelance |";}
+   48.7%{ content: "Freelancer |";}
+   49%{ content: "Freelance |";}
+   50.3%{ content: "Freelanc |";}
+   51.6%{ content: "Freelan |";}
+   52.9%{ content: "Freela |";}
+   53.2%{ content: "Freel |";}
+   54.5%{ content: "Free |";}
+   55.8%{ content: "Fre |";}
+   56.1%{ content: "Fr |";}
+   57.4%{ content: "F |";}
+   60%{ content: " |";}
+   61.9%{ content: "P |";}
+   62.3%{ content: "Ph |";}
+   63.6%{ content: "Pho |";}
+   64.9%{ content: "Phot |";}
+   65.2%{ content: "Photo |";}
+   66.5%{ content: "Photog |";}
+   67.8%{ content: "Photogr |";}
+   68.1%{ content: "Photogra |";}
+   69.4%{ content: "Photograp |";}
+   70.7%{ content: "Photograph |";}
+   71.9%{ content: "Photographe |";}
+   73.3%{ content: "Photographer |";}
+   74.6%{ content: "Photographe |";}
+   75.9%{ content: "Photograph |";}
+   76.2%{ content: "Photograp |";}
+   77.5%{ content: "Photogra |";}
+   78.8%{ content: "Photogr |";}
+   79.1%{ content: "Photog |";}
+   80.4%{ content: "Photo |";}
+   81.7%{ content: "Phot |";}
+   82.9%{ content: "Pho |";}
+   84.3%{ content: "Ph |";}
+   85.6%{ content: "P |";}
+   89.9%{ content: "|";} 
+}
+.about
+{
+    background-color: #f5f5f5;
+    padding: 64px 0px 0px;
+}
+.about .container
+{
+    margin: auto;
+}
+
+.about_p
+{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 45px
+}
+.box-shadow-full
+{
+    margin: 0px 0px 48px ;
+    padding: 64px 48px ;
+    background-color: #fff;
+}
+.about_Img
+{
+    padding: 0px 0px 0px 10px;
+}
+.skills .pro
+{
+    margin-top: 20px;
+}
+.line
+{
+    width: 50px;
+    height: 5px;
+    background-color: #007aff;
+    margin: auto;
+    margin-bottom:50px ;
+}
+.container .title_Box h3
+{
+    
+    font-size: 50px;
+}
+.SERVICES
+{
+    background-color: #f5f5f5;
+    padding: 64px 0px 0px;
+    padding-top: 0px;
+}
+.SERVICES .container .row
+{    
+    background-color: #f5f5f5;
+    margin: auto;
+}
+.service_box
+{
+    background-color: white;
+    padding: 40px 22px;
+    margin: 0px 0px 48px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px gray;
+}
+.service_icon
+{
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border: 10px solid #007aff;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.service_icon:hover
+{
+    border: 10px solid #cde1f8;
+    color: white;
+    background-color:#007aff;
+    transition: 0.5s;
+
+
+}
+
+
+.service_box h2
+{
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0.4rem 0;
+}
+.test
+{
+    width: 4000px;
+}
+.counter
+{
+    background-image: url(Images/counters-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 80%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.overlay2
+{
+    background-color: #007aff;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+
+}
+.counter .container
+{
+   
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter_icon
+{
+    width: 100px;
+    height: 100px;
+    background-color:transparent;
+    border: 10px solid #007aff ;
+    border-color:gainsboro;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    margin-bottom:20px;
+}
+.counter_num
+{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+.counter_box
+{
+    padding: 40px 22px;
+    margin: 0px 0px 48px;
+}
+
+.counter_icon .img
+{
+    color: rgba(255, 255, 255, 0.822);
+    position: relative;
+  
+}
+.counter_num span
+{
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0.4rem 0;
+}
+
+.work .container .row .card
+{
+    border: none;
+    box-shadow: 1px 1px 10px gray;
+    border-radius: 0;
+    margin: 0px 12px 48px;
+    padding-right: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+    outline: none;
+}
+.work .container .row .card .img
+{
+   
+    overflow: hidden;
+}
+.work .container .row .card .img img
+{
+    width: 100%;
+    overflow: hidden;
+}
+.work .container .row .card img:hover
+{
+    transform:scale(1.2,1.2);
+    transition: 1s;
+}
+.work .card-body i,.work .card-body span
+{
+    color: #007aff;
+}
+.carousel 
+{
+    background-image: url(Images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.carousel:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: #007aff;
+    opacity: 0.7;
+  }
+
+.carousel .carousel-item img
+{
+    width: 12%;
+}
+.carousel .carousel-inner h5
+{
+    color: white;
+
+}
+.carousel .carousel-inner p
+{
+    font-size: 22px;
+    color: white;
+}
+.carousel .carousel-dark .carousel-indicators [data-bs-target]
+{
+    
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: white;
+
+}
+.imggg img
+{
+    width: 32px;
+    height: 32px;
+    margin-right: 4px;
+    overflow: hidden;
+    float: left;
+}
+.t1
+{
+    float: left;
+    margin-right: 40%;
+}
+.blog .container .row h3 ,.work .container .row h3
+{
+    margin-top:50px ;
+}
+.blog .container .row .card
+{
+    box-shadow: 1px 1px 10px gray;
+    margin: 0px 12px 48px;
+    padding-right: 0px;
+    padding-left: 0px;
+    overflow: hidden;
+}
+.blog .card .card-category-box
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+.blog .card-category
+{
+    width: 80px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    background-color: #007aff;
+    border-radius:4px;
+    padding: 0 15px 5px;
+    position: absolute;
+}
+.contact
+{
+    background-image: url(Images/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.contact:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: #007aff;
+    opacity: 0.7;
+  }
+.contact .container
+{
+    background-color: white;
+    position: absolute;
+    margin: 20px 20px;
+    padding: 20px 30px;
+
+}
+.contact_ul i
+{
+    font-size: 22px;
+    color: #007aff;
+    padding-right:10px;
+}
+.btnlast
+{
+    margin: auto;
+}
+.contact_ul
+{
+    list-style: none;
+}
+.contact_ul li
+{
+    margin: 20px ;
+    margin-left: 0px;
+}
+.contact h2
+{
+    margin: 20px;
+    margin-bottom: 5px;
+}
+.socials ul
+{
+    list-style: none;
+}
+.socials ul li a
+{
+ padding-right: 13px;
+}
+.line2
+{
+    width: 100px;
+    height: 3px;
+    background-color:#007aff;
+    margin-bottom: 40px;
+    margin-left: 3%;
+}
+.line3
+{
+    width: 100px;
+    height: 3px;
+    background-color:#007aff;
+    margin-bottom: 40px;
+    margin-left: 0%;
+}
+.copyright
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+footer
+{
+    background-color: #0062d3;
+    padding-bottom: 20px;
+}
+footer .container
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: white;
+}
+.credits a
+{
+ text-decoration: none;
+ color: #f5f5f5;
+}
+.credits
+{
+    text-align: center;
+
+}
+.btnnn
+{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
